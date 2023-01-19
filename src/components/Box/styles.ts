@@ -18,5 +18,9 @@ export const Container = styled.div`
     height: 80%;
     width: 80%;
     flex-direction: column;
+
+    .box--preview {
+      height: 50%;
+    }
   }
 `;

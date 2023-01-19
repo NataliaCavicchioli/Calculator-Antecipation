@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const ContainerForm = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: space-evenly;
   height: 100%;
   padding: 4rem;
@@ -13,9 +14,9 @@ export const ContainerForm = styled.div`
     flex-direction: column;
     font-size: 15px;
     margin-top: 11px;
+    min-width: 197px;
   }
   input {
-    max-width: 20rem;
     height: 2.5rem;
     border-radius: 0.1875rem;
     border: 1px solid #0000002b;
