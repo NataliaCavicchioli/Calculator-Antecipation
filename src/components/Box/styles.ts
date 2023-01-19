@@ -11,7 +11,7 @@ export const Container = styled.div`
   justify-content: space-between;
 
   .box--preview {
-    background-color: #d7dae494;
+    background-color: #d1dce32e;
     min-width: 40%;
   }
   @media screen and (max-width: 800px) {
